@@ -1,0 +1,10 @@
+.elementor-140 .elementor-element.elementor-element-60115db7 > .elementor-container {min-height: 90px;}
+.elementor-140 .elementor-element.elementor-element-60115db7 > .elementor-container:after {content: "";min-height: inherit;}
+.elementor-140 .elementor-element.elementor-element-60115db7 {border-style: dotted;border-width: 1px 0px 0px 0px;border-color: #d6d6d6;transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;}
+.elementor-140 .elementor-element.elementor-element-60115db7 > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
+.elementor-140 .elementor-element.elementor-element-1023168e.elementor-widget-heading .elementor-heading-title {color: rgba(0,0,0,.39);}
+.elementor-140 .elementor-element.elementor-element-1023168e .elementor-heading-title {font-size: 13px;font-weight: 300;}
+@media (max-width:1024px) {.elementor-140 .elementor-element.elementor-element-60115db7 {padding: 10px 20px 10px 20px;}}
+@media (max-width:767px) {.elementor-140 .elementor-element.elementor-element-60115db7 {padding: 20px 20px 0px 20px;}
+	.elementor-140 .elementor-element.elementor-element-1023168e {text-align: center;}
+	.elementor-140 .elementor-element.elementor-element-1023168e .elementor-heading-title {line-height: 19px;}}
