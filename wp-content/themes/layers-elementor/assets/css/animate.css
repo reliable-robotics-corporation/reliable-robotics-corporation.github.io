@@ -1,0 +1,33 @@
+.delay-100 {-webkit-animation-delay: .1s;animation-delay: .1s;}
+.delay-200 {-webkit-animation-delay: .2s;animation-delay: .2s;}
+.delay-300 {-webkit-animation-delay: .3s;animation-delay: .3s;}
+.animated-1s {-webkit-animation-duration: 1s;animation-duration: 1s;-webkit-animation-fill-mode: both;animation-fill-mode: both;}
+@-webkit-keyframes fade-in-up {from {opacity: 0;-webkit-transform: translate3d(0,5%,0);transform: translate3d(0,5%,0);}
+	to {opacity: 1;-webkit-transform: none;transform: none;}}
+@-moz-keyframes fade-in-up {from {opacity: 0;-moz-transform: translate3d(0,5%,0);transform: translate3d(0,5%,0);}
+	to {opacity: 1;-moz-transform: none;transform: none;}}
+@-o-keyframes fade-in-up {from {opacity: 0;-o-transform: translate3d(0,5%,0);transform: translate3d(0,5%,0);}
+	to {opacity: 1;-o-transform: none;transform: none;}}
+@keyframes fade-in-up {from {opacity: 0;-webkit-transform: translate3d(0,10px,0);-moz-transform: translate3d(0,10px,0);-o-transform: translate3d(0,10px,0);transform: translate3d(0,10px,0);}
+	to {opacity: 1;-webkit-transform: none;-moz-transform: none;-o-transform: none;transform: none;}}
+.fade-in-up {-webkit-animation-name: fade-in-up;-moz-animation-name: fade-in-up;-o-animation-name: fade-in-up;animation-name: fade-in-up;}
+@-webkit-keyframes fade-in-down {from {opacity: 0;-webkit-transform: translate3d(0,-5%,0);transform: translate3d(0,-5%,0);}
+	to {opacity: 1;-webkit-transform: none;transform: none;}}
+@-moz-keyframes fade-in-down {from {opacity: 0;-moz-transform: translate3d(0,-5%,0);transform: translate3d(0,-5%,0);}
+	to {opacity: 1;-moz-transform: none;transform: none;}}
+@-o-keyframes fade-in-down {from {opacity: 0;-o-transform: translate3d(0,-5%,0);transform: translate3d(0,-5%,0);}
+	to {opacity: 1;-o-transform: none;transform: none;}}
+@keyframes fade-in-down {from {opacity: 0;-webkit-transform: translate3d(0,-10px,0);-moz-transform: translate3d(0,-10px,0);-o-transform: translate3d(0,-10px,0);transform: translate3d(0,-10px,0);}
+	to {opacity: 1;-webkit-transform: none;-moz-transform: none;-o-transform: none;transform: none;}}
+.fade-in-down {-webkit-animation-name: fade-in-down;-moz-animation-name: fade-in-down;-o-animation-name: fade-in-down;animation-name: fade-in-down;}
+@-webkit-keyframes fade-in {from {opacity: 0;}
+	to {opacity: 1;}}
+@-moz-keyframes fade-in {from {opacity: 0;}
+	to {opacity: 1;}}
+@-o-keyframes fade-in {from {opacity: 0;}
+	to {opacity: 1;}}
+@keyframes fade-in {from {opacity: 0;}
+	to {opacity: 1;}}
+.fade-in {-webkit-animation-name: fade-in;-moz-animation-name: fade-in;-o-animation-name: fade-in;animation-name: fade-in;}
+.do-animate {opacity: 0;}
+.opacity-0 {opacity: 0;}
